@@ -38,9 +38,9 @@ class _LoginPageState extends State<LoginPage> {
               child: Container(
                 margin: EdgeInsets.symmetric(vertical: 10),
                 child: Image.asset(
-                  'asete/tutwuri.png',
-                  width: 150,
-                  height: 150,
+                  'assete/tutwuri.png',
+                  width: 90,
+                  height: 90,
                 ),
               ),
             ),
