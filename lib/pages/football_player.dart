@@ -12,7 +12,7 @@ class FootballPlayer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Chelsea")),
+      appBar: AppBar(title: const Text("Football Player")),
       body: Container(
         margin: const EdgeInsets.all(10),
         child: Obx(() => ListView.builder(

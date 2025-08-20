@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Calculate Page',
       theme: ThemeData(primarySwatch: Colors.blue),
-      initialRoute: AppRoutes.calculatePage,
+      initialRoute: AppRoutes.bottomnav,
       getPages: AppPages.pages,
     );
   }
