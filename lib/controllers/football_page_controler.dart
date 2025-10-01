@@ -10,10 +10,11 @@ class FootballPageController extends GetxController {
     Player(nama: "Cunha", posisi: "Striker", nomor: 9, image: "assete/cunha.png"),
   ].obs;
 
-  void updatePlayer(int index, String nama, String posisi, int nomor) {
-    players[index].nama = nama;
-    players[index].posisi = posisi;
-    players[index].nomor = nomor;
-    players.refresh();
+  void deletePlayer(int index) {
+    players.removeAt(index);
+  }
+
+  void addPlayer(Player player) {
+    players.add(player);
   }
 }

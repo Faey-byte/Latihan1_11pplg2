@@ -55,12 +55,7 @@ class CalculatePage extends StatelessWidget {
             Row(
               children: [
                 const SizedBox(width: 8),
-                Custombutton(
-                  text: "Go to FootballPage",
-                  onPressed: () {
-                    Get.toNamed(AppRoutes.footballPage);
-                  },
-                ),
+                
               ],
             )
           ],

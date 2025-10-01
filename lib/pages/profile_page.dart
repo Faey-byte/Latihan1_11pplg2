@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:latihan1_11pplg2/controllers/login_controller.dart';
 
 class ProfilePage extends StatelessWidget {
-  const ProfilePage({super.key});
+ const ProfilePage({super.key});
+
 
   @override
   Widget build(BuildContext context) {
@@ -13,14 +16,14 @@ class ProfilePage extends StatelessWidget {
           children: const [
             CircleAvatar(
               radius: 50,
-              backgroundImage: AssetImage('assets/profile.png'), // pastikan ada gambar di assets
+              backgroundImage: AssetImage('assete/cunha.png'), 
             ),
             SizedBox(height: 20),
             Text(
-              "User Name",
+              "Agustinus Galih Gumilang",
               style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
             ),
-            Text("user@email.com"),
+            Text("agustinus@email.com"),
           ],
         ),
       ),
