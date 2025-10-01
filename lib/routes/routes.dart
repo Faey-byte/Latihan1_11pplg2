@@ -1,4 +1,5 @@
 
+import 'package:latihan1_11pplg2/pages/contact_page.dart';
 import 'package:latihan1_11pplg2/pages/login_page.dart';
 
 class AppRoutes {
@@ -6,6 +7,7 @@ class AppRoutes {
   static const footballPage = '/football';
   static const bottomnav = '/bottomnav';
   static const profilePage = '/profile';
-  static const LoginPage = '/login';
+  static const loginPage = '/login';
   static const splacescreen = '/splace';
+  static const contactPage = '/contact';
 }

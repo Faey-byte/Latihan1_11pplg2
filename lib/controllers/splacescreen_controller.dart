@@ -19,7 +19,7 @@ class SplacescreenController extends GetxController{
       Get.offAllNamed(AppRoutes.bottomnav);
     }else{
 //route ke login karena kosong
-Get.offAllNamed(AppRoutes.LoginPage);
+Get.offAllNamed(AppRoutes.loginPage);
     }
   }
 }
