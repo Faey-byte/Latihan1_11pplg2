@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "561188570839",
+    "project_id": "flutterpushlatihan",
+    "storage_bucket": "flutterpushlatihan.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561188570839:android:b2a4874a2ef17c12645292",
+        "android_client_info": {
+          "package_name": "com.example.latihan1_11pplg2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT4zxlQ77ee57-mqxooGZ3hNCUpwfNjWQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
